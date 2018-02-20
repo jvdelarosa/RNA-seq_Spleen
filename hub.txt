@@ -1,0 +1,5 @@
+hub Spleen
+shortLabel Spleen
+longLabel Spleen
+genomesFile genomes.txt
+email jvdelarosa@ucsd.edu
