@@ -1,0 +1,34 @@
+track Spleen
+container multiWig
+noInherit on
+shortLabel Spleen
+longLabel Spleen
+type bigWig
+configurable on
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale on
+windowingFunction maximum
+priority 1.4
+alwaysZero on
+yLineMark 0
+yLineOnOff on
+maxHeightPixels 100:75:11
+
+track CD169
+bigDataUrl CD169.ucsc.bigWig
+shortLabel CD169
+longLabel CD169
+type bigWig
+parent Spleen
+color 255,150,150
+
+track F480
+bigDataUrl F480.ucsc.bigWig
+shortLabel F480
+longLabel F480
+type bigWig
+parent Spleen
+color 150,150,255
+
